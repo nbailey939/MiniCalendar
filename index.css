@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #66c3d1;
+}
+
+.calendar-container {
+  background-color: #f9dce1;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.month-name {
+  margin: 0;
+  background-color: #813f09;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.day-name {
+  font-size: 20px;
+  font-weight: 200;
+  color: #181e34;
+}
+
+.day-number {
+  font-size: 80px;
+  margin: 0;
+  font-weight: bold;
+  color: #181e34;
+}
+
+.year {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #181e34;
+  font-weight: 500;
+}
